@@ -1,0 +1,14 @@
+/*  Caperucita roja
+    José Luis
+    24/11/2020    */
+h1{
+    background-color:firebrick;
+    margin:10px;
+    border: solid 3px white;
+    color:white;
+    padding: 10px;
+    border-radius: 15px;}
+div{color:blue}
+pre{background-color: palevioletred;
+    color:gainsboro;}
+html{background-color: floralwhite}

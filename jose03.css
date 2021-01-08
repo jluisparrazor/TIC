@@ -1,0 +1,31 @@
+/*    
+    Hoja de estilo
+    Creador: José Luis
+    Noviembre 2020
+*/
+h1{
+    background-color: forestgreen;
+    color:white;
+    text-align: center;
+}
+div{
+    background-color: blue;
+    color:white;
+    margin: 10px;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 25px;        
+}
+
+#div1{
+    background-color:purple;
+}
+
+h3{
+    text-align: center;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 25px
+}

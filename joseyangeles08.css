@@ -1,0 +1,37 @@
+/*    
+    CSS cajas flotantes
+    Diciembre 2020
+    José Luis y Ángeles
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+div{
+    padding: 20px;
+    border: solid black 5px;
+    width: 50%;
+    float: left;
+}
+
+.rosa{
+    background-color: palevioletred;
+}
+
+.verde{
+    background-color: lightgreen;
+}
+
+.morado{
+    background-color: mediumpurple;
+    clear: both;
+    width: 100%;
+}
+
+.azul{
+    background-color: skyblue;
+    clear: both;
+    width: 100%;
+}

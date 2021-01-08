@@ -1,0 +1,27 @@
+/* 
+    Hoja de Estilo P9
+    diciembre 2020
+    Ángeles y José Luis
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header,footer{
+    background-color: darkgoldenrod;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+}
+
+section{
+    width: 33%;
+    background-color: lightgray;
+    padding: 20px;
+    float: left;
+}

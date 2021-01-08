@@ -1,0 +1,22 @@
+/*
+        Listas
+        José Luis
+    30 NOVIEMBRE 2020 */
+html{
+    background-color:coral
+}
+.contenedor{
+    background-color: aqua;
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    width:55%;
+    
+}
+ol{
+    list-style: upper-roman;
+    
+}
+ul{
+    list-style: circle;
+}
