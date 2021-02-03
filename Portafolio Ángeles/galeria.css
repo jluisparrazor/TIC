@@ -1,0 +1,32 @@
+/*  Blog de fotografía 
+    Ángeles y José Luis
+    Enero 2021
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.menu{
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    margin: auto;
+}
+.menu>a{
+    transition: 0.5s;
+    padding: 8px;
+    text-decoration: none;
+    background-color: lightblue;
+    color: black;
+    
+}
+
+.menu>a:hover{
+    transform: scale(1.2);
+    background-color: grey;
+}
