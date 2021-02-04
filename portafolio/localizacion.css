@@ -1,0 +1,102 @@
+/*  Blog de fotografía 
+    Ángeles y José Luis
+    Enero 2021
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    background: url(fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.logo{
+    width: 5.1%;
+    position: absolute;
+}
+
+#header{
+    margin:auto;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: lightblue;
+    color: black;
+    border: solid dimgray 3px;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: grey;
+    
+}
+
+.nav> li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    width: 25%;
+    z-index: 2;
+}
+
+.nav li:hover > ul{
+    display:block;
+}
+.nav li ul li{
+    position: relative
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    border: dimgray 5px solid;
+    margin-top: 30px;
+}
+
+.te{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 30px;
+    border: solid black 3px;
+    width: 50%;
+    background-color: rgba(105, 105, 105, 0.38);
+    margin-top: 30px;
+}
+
+ol{
+    list-style: circle;
+    margin-left: 10px;
+}
+
+.pie{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    background-color: lightblue;
+    padding: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}

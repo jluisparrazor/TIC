@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="icon" href="Logo.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+     <!--Menú Despegable-->
+    <img class=logo src="Logo.png" alt="">
+    <div id=header>
+        <ul class="nav">
+            <li>
+            <a href="blogfotografia.html">INICIO</a></li>
+            <li><a href="">GALERÍA</a>
+                <ul>
+                    <li><a href="Mariat.html">MARÍA T.</a>
+                    </li>
+                    <li><a href="alvarog.html">ÁLVARO</a></li>
+                    <li><a href="esther.html">ESTHER</a>
+                    </li>
+                    <li><a href="jl.html">JOSÉ LUIS</a>
+                    </li>
+                    <li><a href="mariar.html">MARÍA R.</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="localizacion.html">LOCALIZACIÓN</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </div>
+    <!--Fin Menú Despegable-->
+    
+    <!--Tabla-->
+    <table>
+        <caption>Tabla de precios</caption>
+        <tr>
+            <td class="hh">Horas</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td class="hh">Precio</td>
+            <td>30€</td>
+            <td>55€</td>
+            <td>80€</td>
+        </tr>
+        
+    </table>
+    <!--Fin Tabla-->
+    
+    <!--parrafo-->
+    <div class="parrafo"> Para contactar y saber sobre la disponibilidad de nuestras sesiones, pulse el siguiente link o rellene el formulario de abajo:</div>
+    <!--Fin parrafo-->
+    
+    <!--boton-->
+    <button class="button"><a href="https://forms.gle/5S6QPsUJzR6nTiQp9">Pulsa para acceder a un formulario con el que podras comunicarte con nosotros fácilmente</a></button> 
+    <!--Fin del Boton-->
+    
+    <!--Minitexto-->
+    <div class="minitexto">
+    Con estos formularios podrás contactar directamente con nosotros y pedir información.</div>
+    <!--Fin de Minitexto-->
+    
+    <!--Formulario-->
+    <div class="formulario">
+        <h1>Contáctanos</h1>
+        <form action="procesar.php" method="post" class="fm">
+            <input type="text" placeholder="Tu Nombre" name="nombre">
+            <input type="email" placeholder="Correo Electrónico" name="email">
+            <input type="tel" placeholder="Teléfono" name="telefono">
+            <textarea name="area" id="si" cols="20" rows="5"></textarea>
+            <select name="pais" id="no">
+                <option value="España">España</option>
+                <option value="Alemania">Alemania</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Francia">Francia</option>
+            </select>
+            <input type="submit" class="Boton" value="Enviar">
+        </form>
+    </div>
+    <!--Fin Formulario-->
+    
+    <!--Pie-->
+    <footer class=pie>Página creada por @jluisparrazor y @adezz27
+    </footer>
+    <!--Fin Pie-->
+</body>
+</html>
