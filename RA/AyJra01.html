@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 2 (RA) </title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="aframe-particle-system-component.min.js"></script>
+</head>
+<body>
+    <a-scene>
+         <a-camera fov="40" position="0 2 3"></a-camera>
+         <!--inicio patas mesa-->
+         <a-box width="2" height="4" position="-1 1 -4" rotation="0 90 0" src="./textura1.jpg" scale="0.1 0.3 0.2"></a-box>
+         <a-box width="2" height="4" position="1 1 -4" rotation="0 90 0" src="./textura1.jpg" scale="0.1 0.3 0.2"></a-box>
+         <a-box width="2" height="4" position="1 1 -2" rotation="0 90 0" src="./textura1.jpg" scale="0.1 0.3 0.2"></a-box>
+         <a-box width="2" height="4" position="-1 1 -2" rotation="0 90 0" src="./textura1.jpg" scale="0.1 0.3 0.2"></a-box>
+         <!-- fin patas de mesa-->
+         <!--tabla mesa (corregir las medidas)-->
+         <a-box width="8" height="5" position="0 1.5 -3" rotation="90 90 0" src="./textura1.jpg" scale="0.3 0.5 0.2"></a-box>
+         <!--fin tabla mesa-->
+         <!--inicio paredes-->
+         <a-plane color="#44FAA5" position="0 0 -6" rotation="-90 0 0" src="" repeat="2 2 2"width="7" height="7"></a-plane>
+         <a-plane color="#44FAA5" position="0 2 -9" rotation="0 0 0" src="" repeat="2 2 2" width="7" height="7"></a-plane>
+         <!--fin paredes-->
+         <a-entity position="0 1 0" particle-system="preset:dust; velocityValue:1 1 0; particleCount:1000"></a-entity>
+         <a-sky color="black"></a-sky>
+    </a-scene>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>R. Aumentada 1</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+   <a-scene>
+       <a-camera fov="80" position="0 3.5 8"></a-camera>
+       <a-plane 
+                position="0 0 0" rotation="-90 0 0" color=" blue"
+                width="7" height="7">
+            </a-plane> 
+        <a-sky color="black"></a-sky>
+        <a-plane 
+                position="0 3.5 -3.5" rotation="0 0 0" src="./img/suelo.jpg" 
+                repeat="2 2 2"
+                width="7" height="7" color="green">
+            </a-plane> 
+        <a-plane 
+                position="3.5 3.5 0" rotation="0 -90 0" src="./img/suelo.jpg" 
+                repeat="2 2 2"
+                width="7" height="7" color="red">
+            </a-plane> 
+        <a-plane 
+                position="-3.5 3.5 0" rotation="0 90 0" src="./img/suelo.jpg" 
+                repeat="2 2 2"
+                width="7" height="7" color="yellow">
+            </a-plane>
+        <a-plane 
+                position="0 7 0" rotation="90 0 0" color=" blue"
+                width="7" height="7">
+            </a-plane> 
+         <a-box position="-1 1 -1" rotation="0 -30 0" scale="2 2 2" color="#4cd94c" shadow></a-box> 
+          <a-cylinder position="1 1 1" radius="0.5" height="3" height="4" color="#eb85e8" shadow></a-cylinder>           
+   </a-scene>   
+    
+</body>
+</html>
