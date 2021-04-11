@@ -1,0 +1,31 @@
+#
+# platform
+#
+# Materials for the file "JoseLuis.obj"
+#
+
+
+newmtl m1
+   illum 1
+   d 1
+   Ns 6
+   sharpness 60
+   Ni 1
+   map_Kd JoseLuisImage1.png
+
+newmtl default
+   illum 1
+   d 1
+   Ns 6
+   sharpness 60
+   Ni 1
+
+newmtl ColorPerFace
+   illum 1
+   d 1
+   Ns 6
+   sharpness 60
+   Ni 1
+   map_Kd JoseLuisImageColorPerFace.png
+
+# end of file
