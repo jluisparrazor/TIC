@@ -1,0 +1,153 @@
+body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+      grid-area: sidebar;
+    }
+  
+    .content {
+      grid-area: content;
+    }
+  
+    .header {
+      grid-area: header;
+    }
+  
+    .footer {
+      grid-area: footer;
+    }
+  
+    .wrapper {
+      background-color: #fff;
+      color: #444;
+    }
+  
+    .wrapper {
+      display: grid;
+      grid-gap: 1em;
+      grid-template-areas:
+       "header"
+       "sidebar"
+       "content"
+       "footer"
+    }
+
+    
+
+  
+    /*@media only screen and (min-width: 500px)  {
+    .wrapper {
+  
+      grid-template-columns: 20% auto;
+      grid-template-areas:
+      "header   header"
+      "sidebar  content"
+      "footer   footer";
+    }
+    }*/
+  
+  
+    @media only screen and (min-width: 600px) {
+        
+        .wrapper {
+          /* Tu diseño para pantallas mayores de 600px aquí */
+          grid-gap: 20px;
+          grid-template-columns: 1fr 3fr; /* Utiliza fr units para que las columnas ocupen el espacio disponible */
+          grid-template-areas:
+            "header  header  "
+            "sidebar content "
+            "footer  footer  ";
+            max-width: calc(100vw - 40px); /* Resta 40px del ancho total de la pantalla */
+            width: 100%; /* Establece el ancho al 100% */
+            height: 100vh; /* Establece la altura al 100% del viewport */
+            margin-right: 40px; /* Agrega un margen de 40px a la derecha */
+        }
+      }
+  
+  .box {
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%; 
+  }
+  
+  .header,
+  .footer {
+    
+    padding: 25px;
+    color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /*position: relative;*/
+    background-color: #999;
+    padding: 25px;
+    color: black;
+    text-align: center;
+    
+  }
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a{
+    background-color: #444;
+    color: black;
+    border: solid dimgray 3px;
+    text-decoration: none;
+    display: block;
+}
+.nav li a:hover{
+    background-color: grey;
+}
+
+.nav> li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    width: 25%;
+    z-index: 2;
+}
+
+.nav li:hover > ul{
+    display:block;
+}
+.nav li ul li{
+    position: relative
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+.img_logo{
+    display: flex;
+    align-items: flex-start;
+    height: 150px;
+    }
+
+
+
+  
