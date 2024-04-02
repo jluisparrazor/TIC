@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Senderismo en Almería </title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/actividad_style.css">
+        <link rel="icon" href="image/logo.png"/>
+
+    </head>
+
+    <body>
+        <button class="boton-superpuesto" onclick="toggleOverlay()">Mostrar comentarios</button>
+        
+        <div id="overlay" class="overlay">
+            <div class="overlay-content">
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                      <li>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name" />
+                      </li>
+                      <li>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                      </li>
+                      <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                      <li class="button">
+                        <button type="button" onclick="MostrarComentario()">Envíe su mensaje</button>
+                      </li>
+                    </ul>
+                  </form>
+                  <div id="comentarios">
+                    <div id="comentario">
+                        <div>Autor: Águeda </div>
+                        <div>Fecha y hora: 27/4/2023 </div>
+                        <div>Comentario: Me encanta el senderismo, hay lugares maravillosos para descbrir </div>
+                  </div>
+                    <div id="comentario">
+                        <div>Autor: Marina </div>
+                        <div>Fecha y hora: 6/6/2023 </div>
+                        <div>Comentario: Es una buena actividad para realizar en familia </div>
+                  </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="box header">
+                <img id="header_logo" src="image/logo.png" alt="">
+                <h1 id="header_h1">Actividades de Montaña en Almería</h1>
+                <nav>
+                    <ul>
+                        <li><a href="portada.html">Inicio</a></li>
+                        <li><a href="#">Tutoriales</a></li>
+                        <li><a href="#">Cursos</a></l>
+                    </ul>
+                </nav>
+            </div>
+            <div class="box sidebar"> <h3>Enlaces de interés:</h3>
+                <a href="https://www.komoot.com/es-es/guide/10043/rutas-de-senderismo-en-almeria">- Rutas Senderismo</a><br>
+                <a href="https://xploraalmeria.com/">- Emociones Fuertes</a><br>
+                <a href="https://www.rutasporalmeria.com/">- Guías de Montaña</a><br>
+                <a href="https://runedia.mundodeportivo.com/calendario-carreras/espana/andalucia/almeria/carreras-de-montana/distancia/">- Carreras de Montaña</a>
+            </div>
+            <div class="box content grid2">
+                
+                <h1>Senderismo en Almería</h1>
+                <div class="img1">
+                    <img src="image/actividad1.jpg"  alt="">
+                    <img src="image/sen.jpg" alt="">
+                </div>
+                
+                <div class="text"> 
+                    <section>
+                        <h3>Detalles de la actividad:</h3>
+                        <ul>
+                          <li><strong>Ruta:</strong> Sendero del Parque Natural de Cabo de Gata-Níjar</li>
+                          <li><strong>Precio:</strong> 35€ por persona</li>
+                          <li><strong>Duración:</strong> 6 horas (aprox.)</li>
+                          <li><strong>Nivel de dificultad:</strong> Moderado</li>
+                          <li><strong>Punto de encuentro:</strong> Plaza del Ayuntamiento de Almería a las 8:30 a.m.</li>
+                          <li><strong>Qué llevar:</strong>
+                            <ul>
+                              <li>Botella de agua (mínimo 1 litro)</li>
+                              <li>Calzado cómodo para caminar</li>
+                              <li>Gorra y gafas de sol</li>
+                            </ul>
+                          </li>
+                          <li><strong>Incluye:</strong> Guía experto, transporte desde el punto de encuentro, seguro de actividades al aire libre, kit de primeros auxilios, refrigerios.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Descripción de la ruta:</h3>
+                        <p>La ruta del Sendero del Parque Natural de Cabo de Gata-Níjar te llevará a través de un paisaje diverso y sorprendente. Comenzando en la pintoresca plaza del Ayuntamiento de Almería, nos dirigiremos hacia el este, adentrándonos en el corazón del parque natural.</p>
+                        <p>Nuestro sendero nos llevará a través de antiguos caminos de pastoreo y senderos rocosos mientras ascendemos suavemente por las colinas. A lo largo del camino, disfrutarás de vistas panorámicas de la costa mediterránea, con sus aguas cristalinas y acantilados impresionantes.</p>
+                        <p>Continuaremos nuestro recorrido a través de cañones ocultos y bosques de pinos, donde podrás admirar la diversidad de la flora y fauna del parque. No te pierdas la oportunidad de descubrir cascadas escondidas y piscinas naturales, perfectas para un refrescante baño en plena naturaleza.</p>
+                        <p>Después de una jornada de exploración y aventura, regresaremos al punto de partida con recuerdos inolvidables y una profunda conexión con la belleza natural de Almería.</p>
+                      </section>
+                </div>
+                
+                <div class="botones">
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fclubcarbonero" >  <img class="redes"  src="image/x-removebg-preview.png" alt=""> </a>
+                <a href="https://www.facebook.com/DelegacionAlmerienseDeMontanismo/" >  <img class="redes" src="image/fac.png" alt=""> </a>
+                <a href="actividad_imprimir.html"  >  <img class="imprimir" src="image/imp-removebg-preview.png" alt=""> </a>
+                </div>
+
+            </div>
+            <div class="box footer">
+                <p>-- &copy;2024 - José Luis Parra Azor --<br> -- Contáctanos en Almeria@ActMontaña.com --<br> -- Llama al +123456789 --</p>
+            </div>
+          </div> 
+    </body>
+    <script src="script.js"></script>
+</html>

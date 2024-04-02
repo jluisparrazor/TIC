@@ -1,0 +1,130 @@
+
+  body {
+      margin: 40px;
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .sidebar {
+        display: none;
+        grid-area: sidebar;
+        border-color: #bd661b;
+        border-width: 3px;
+        border-style: dashed;
+      }
+
+      .wrapper .content{
+        background-color: white;
+        color: black;
+      }
+      .wrapper .content .img1{
+        display: flex;
+        float: right;
+        width: 30%;
+        flex-direction: column;
+        border-radius: 5px;
+        
+      }
+
+      .wrapper .content .img1 img{
+        display: flex;
+        float: right;
+        margin: 30px;
+        border-radius: 5px;
+      }
+
+      .wrapper .content h1{
+        grid-area: title;
+        color:black;
+      }
+
+      .wrapper .content .botones{
+        display: none;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .header {
+        grid-area: header;
+      }
+    
+      .footer {
+        grid-area: footer;
+      }
+    
+      .wrapper {
+        background-color: white;
+      }
+
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+     "header"
+     "content"
+     "footer"
+  }
+  
+  .box .content h1{
+    color: #bd661b;
+  }
+
+  .box {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 125%; 
+  }
+
+  .wrapper .content .botones .redes{
+    width: 25%;
+  }
+  
+  .wrapper .content .botones .imprimir{
+    width: 37%;
+  }
+    
+  .header,
+  .footer {
+    background-color: white;
+  }
+  
+  #header_logo {
+    float:right;
+    width: 10%;
+    height: auto;
+  }
+  
+  #header_h1{
+    display: inline;
+    text-align: center;
+    padding: 25px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer{
+    display: inline;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  nav {
+      float: center;
+      display: none; 
+      align-items: center;
+      justify-content: center;
+  
+    }
+  
+    nav ul {
+      list-style: none;
+      overflow: hidden; 
+    }
+  
