@@ -10,41 +10,39 @@
     </head>
 
     <body>
-        <button class="boton-superpuesto" onclick="toggleOverlay()">Mostrar comentarios</button>
+        <button class="boton-comentario" onclick="mostrarOverlay()">Comenta Aquí</button>
         
         <div id="overlay" class="overlay">
-            <div class="overlay-content">
-                <form action="/my-handling-form-page" method="post">
-                    <ul>
-                      <li>
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="user_name" />
-                      </li>
-                      <li>
-                        <label for="mail">Correo electrónico:</label>
-                        <input type="email" id="mail" name="user_mail" />
-                      </li>
-                      <li>
-                        <label for="msg">Mensaje:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                      </li>
-                      <li class="button">
-                        <button type="button" onclick="MostrarComentario()">Envíe su mensaje</button>
-                      </li>
-                    </ul>
-                  </form>
-                  <div id="comentarios">
-                    <div id="comentario">
-                        <div>Autor: Águeda </div>
-                        <div>Fecha y hora: 27/4/2023 </div>
-                        <div>Comentario: Me encanta el senderismo, hay lugares maravillosos para descbrir </div>
-                  </div>
-                    <div id="comentario">
-                        <div>Autor: Marina </div>
-                        <div>Fecha y hora: 6/6/2023 </div>
-                        <div>Comentario: Es una buena actividad para realizar en familia </div>
-                  </div>
-                  </div>
+          <form action="/my-handling-form-page" method="post">
+              <ul>
+                <li>
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                  <label for="mail">Correo electrónico:</label>
+                  <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li>
+                  <label for="msg">Comentario:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                  <button type="button" onclick="MostrarComentario()">Envíe su comentario</button>
+                </li>
+              </ul>
+          </form>
+            <div id="comentarios">
+              <div id="comentario">
+                  <div>Autor: Águeda </div>
+                  <div>Fecha y hora: 27/4/2023 02:06:20</div>
+                  <div>Comentario: Me encanta el senderismo, hay lugares maravillosos para descbrir </div>
+              </div>
+              <div id="comentario">
+                  <div>Autor: Marina </div>
+                  <div>Fecha y hora: 6/6/2023 03:05:03</div>
+                  <div>Comentario: Es una buena actividad para realizar en familia </div>
+              </div>
             </div>
         </div>
 
